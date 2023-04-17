@@ -14,37 +14,60 @@
         </style>
     </head>
     <body>
+        
+        <div= class="grid-container"></div>
+        <div= class="consto">
+        
+        
+        
+        
+        
         <div id="gametable"></div>
         <script>
-            card = ["pokemon-card-front.png.png", "naruto-card-front.png", "ezpoke.png", "pokemon-card-front.png.png", "naruto-card-front.png", "ezpoke.png"] 
+            let NTurnCard = 0
+            let FristTurnCard = null
+            card = ["ezpoke.png", "naruto-card-front.png", "pokemon-card-front.png.png", "ezpoke.png", "naruto-card-front.png" , "pokemon-card-front.png.png" ]
             table = document.querySelector('#gametable')
 
             card.forEach(element => {
-                table.innerHTML += '<img id="' + element + '" src="pokemon-card-retro.png" onclick="TurnImg(this)" />'
-                console.log('<img id="' + element + '" src="pokemon-card-retro.png" />')
-            });
+            table.innerHTML += '<img id="' + element + '" src="pokemon-card-retro.png" onclick="TurnImg(this)" />'
+            console.log('<img id="' + element + '" src="pokemon-card-retro.pngpokemon-card-retro.png" />')
+});
 
-            function TurnImg(card) {
-                console.log("TurnImg")
-                console.log(card.src)
-                if (card.src.includes("retro"))
-                    card.src = card.id
-                else card.src = "pokemon-card-retro.png";
-                 
-            } 
+function TurnImg(card) {
+    NTurnCard++
+    card.src = card.id
+    console.log(NTurnCard)
+    if (NTurnCard == 1)
+        FristTurnCard = card
+    else {
+        NTurnCard = 0
+        if (card.src == FristTurnCard.src)
+            console.log("+1 Point")
+        else {
+            console.log("retry")
+
+            setTimeout(()=>{
+                card.src = "pokemon-card-retro.png"
+                FristTurnCard.src = "pokemon-card-retro.png"
+            },1500)
+        
+        
+        
+        
+        
+        
+        }
+    }
+}
                 
-                
-            {
+
            
-                function gira(carte)
-                let carteGirate++
-             carta.src=carta.id
-           console.log(carteGirate)
-            // carta.src = "pokemon-card-retro.png"
-            
+        
+               
 
             
-            }
+           
            
            
            
