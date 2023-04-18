@@ -1,16 +1,30 @@
-<!DOCTYPE html>
+<<!DOCTYPE html>
 <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CartePokemon</title>
 
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>CardGame</title>
-        <style>
-            img {
-                width: 200px; height: 200
-                px;
-            }
+    <style>
+        Img {
+            width: 100px;
+        }
+        
+        body {
+            color: rgb(233, 10, 10);
+        }
+        
+        #tavolo {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            color: rgb(16, 54, 21);
+        }
+        .card {
+            width: 100px;
+            margin: 5px;
+        }
         .counter {
             font-size: 24px;
             margin: 10px;
@@ -19,78 +33,52 @@
             display: flex;
             justify-content: center;
         }
-       
-       
-       </style>
-    </head>
-    <body>
-        
-        <div id="punti">
-            <span class="counter">Punti =</span><span id="counter" class="counter">0</span>
-        </div>
-        
-        
-        
-        
-        
-        <div id="gametable"></div>
-        <script>
-            let NTurnCard = 0
-            let FristTurnCard = null
-            card = ["ezpoke.png", "naruto-card-front.png", "pokemon-card-front.png.png", "ezpoke.png", "naruto-card-front.png" , "pokemon-card-front.png.png" ]
-            table = document.querySelector('#gametable')
+    </style>
+</head>
 
-            card.forEach(element => {
-            table.innerHTML += '<img id="' + element + '" src="pokemon-card-retro.png" onclick="TurnImg(this)" />'
-            console.log('<img id="' + element + '" src="pokemon-card-retro.pngpokemon-card-retro.png" />')
-            
-            let count = 0;
-            var counter = document.getElementById("counter");
+<body>
 
-            
+    <div id="punti">
+        <span class="counter">Punti =</span><span id="counter" class="counter">0</span>
+    </div>
 
+    <div id="tavolo"></div>
+
+    <script>
+        let NcarteGirate = 0;
+        let primaCartaGirata = null
+        let carte = ["naruto-card-front.png","pokemon-card-front.png.png","ezpoke.png","naruto-card-front.png","pokemon-card-front.png.png","ezpoke.png" ]
+
+        let tavolo = document.querySelector('#tavolo')
+
+        let count = 0;
+
+        carte.forEach(element => {
+            tavolo.innerHTML += '<div class="card"><img id="'+element+'" src="pokemon-card-retro.png" onclick="gira(this)" /></div>'
         });
 
+        var counter = document.getElementById("counter");
 
-
-function TurnImg(card) {
-    NTurnCard++
-    card.src = card.id
-    console.log(NTurnCard)
-    if (NTurnCard == 1)
-        FristTurnCard = card
-    else {
-        NTurnCard = 0
-        if (card.src == FristTurnCard.src)
-            console.log("+1 Point")
-        else {
-            console.log("retry")
-
-            setTimeout(()=>{
-                card.src = "pokemon-card-retro.png"
-                FristTurnCard.src = "pokemon-card-retro.png"
-            },1500)
-        
-        
-        
-        
-        
-        
+        function gira(carta) {
+            NcarteGirate++
+            carta.src = carta.id
+            if (NcarteGirate == 1)
+                primaCartaGirata = carta
+            else {
+                NcarteGirate = 0
+                if (carta.src == primaCartaGirata.src) {
+                    count++;
+                    counter.textContent = count;
+                } else {
+                    setTimeout(function() {
+                        carta.src = "pokemon-card-retro.png";
+                        primaCartaGirata.src = "pokemon-card-retro.png";
+                    }, 1000);
+                }
+            }
         }
-    }
-}
-                
 
-           
-        
-               
+    </script>
 
-            
-           
-           
-           
-           
-                    
-        </script>
-    </body>
+</body>
 </html>
