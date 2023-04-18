@@ -11,12 +11,23 @@
                 width: 200px; height: 200
                 px;
             }
-        </style>
+        .counter {
+            font-size: 24px;
+            margin: 10px;
+        }
+        #punti {
+            display: flex;
+            justify-content: center;
+        }
+       
+       
+       </style>
     </head>
     <body>
         
-        <div= class="grid-container"></div>
-        <div= class="consto">
+        <div id="punti">
+            <span class="counter">Punti =</span><span id="counter" class="counter">0</span>
+        </div>
         
         
         
@@ -32,7 +43,15 @@
             card.forEach(element => {
             table.innerHTML += '<img id="' + element + '" src="pokemon-card-retro.png" onclick="TurnImg(this)" />'
             console.log('<img id="' + element + '" src="pokemon-card-retro.pngpokemon-card-retro.png" />')
-});
+            
+            let count = 0;
+            var counter = document.getElementById("counter");
+
+            
+
+        });
+
+
 
 function TurnImg(card) {
     NTurnCard++
