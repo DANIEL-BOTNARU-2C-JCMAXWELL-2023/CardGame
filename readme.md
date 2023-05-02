@@ -17,4 +17,4 @@ This is how you create good competition between you and your friends***
 
 
 
-`rgb(9, 105, 218)`
+	`#RRGGBB`	`#0969DA`
