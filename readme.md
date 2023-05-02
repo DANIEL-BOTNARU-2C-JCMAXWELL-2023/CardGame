@@ -1,10 +1,10 @@
 # CardGame
  JavaScript Tutorial
 
-                                 **Made By Daniel Botnaru**
+   **Made By Daniel Botnaru**
                                           
 					  
-					  Let's play
+   **_Let's play
 					   
 
 - ***You will have fun playing this game, but at the same time train your mind,
@@ -14,7 +14,7 @@ like naruto and pokemon***
 - ***If you want to be challenged in a memory game, this game is for you***
 - ***Try to get as _many points as possible_, then challenge your friends to beat your record,
 This is how you create good competition between you and your friends***
-
+-This game is not funy
 ![image](https://user-images.githubusercontent.com/124572811/235663338-2e20a339-53fd-4f8d-ac89-c70034505073.png)
 
 
