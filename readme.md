@@ -20,7 +20,7 @@ This is how you create good competition between you and your friends***
 
 ![image](https://user-images.githubusercontent.com/124572811/235663338-2e20a339-53fd-4f8d-ac89-c70034505073.png)
 
--**In queste immagini sopra possiamo notare tanti colori ma sopratutto l'infanzia di tanti noi
+-**In queste immagini sopra possiamo notare tanti colori ma sopratutto l'infanzia di tanti noi**
 
 
 	
