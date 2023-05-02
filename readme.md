@@ -5,7 +5,7 @@ Made By Daniel Botnaru
 Let's play
 
 - ***You will have fun playing this game, but at the same time train your mind,
-This game is called Memory, which means memory.
+This game is called Memory, which means memory.***
 -***Also in this game are cards from various most famous anime
 like naruto and pokemon***
 - ***If you want to be challenged in a memory game, this game is for you***
