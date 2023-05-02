@@ -1,7 +1,7 @@
 # CardGame
  JavaScript Tutorial
 
-                                 <sub> Made By Daniel Botnaru </sub>
+                                 **Made By Daniel Botnaru**
                                           
 					  
 					  Let's play
