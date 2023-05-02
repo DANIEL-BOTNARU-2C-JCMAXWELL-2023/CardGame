@@ -1,7 +1,7 @@
 # CardGame
  JavaScript Tutorial
 
-                                      _Made By Daniel Botnar_
+                                     **Made By Daniel Botnar**
                                            Let's play
 
 - ***You will have fun playing this game, but at the same time train your mind,
