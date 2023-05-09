@@ -4,7 +4,7 @@
    **Made By Daniel Botnaru**
                                           
 					  
-   **_Let's play
+   **_Let's play**
 					   
 
 - ***You will have fun playing this game, but at the same time train your mind,
