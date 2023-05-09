@@ -15,6 +15,14 @@ like naruto and pokemon***
 - ***Try to get as _many points as possible_, then challenge your friends to beat your record,
 This is how you create good competition between you and your friends***
 <sup>This game is funny</sup>
+-***Our game starts with this view where all the cards are turned over, to win you have to turn over all the cards with similar faces***
+
+
+
+
+
+
+
 
 
 
