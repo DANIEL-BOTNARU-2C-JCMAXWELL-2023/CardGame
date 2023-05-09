@@ -15,13 +15,17 @@ like naruto and pokemon***
 - ***Try to get as _many points as possible_, then challenge your friends to beat your record,
 This is how you create good competition between you and your friends***
 <sup>This game is funny</sup>
+
+
+
 -***Our game starts with this view where all the cards are turned over, to win you have to turn over all the cards with similar faces***
 
+![Immagine 2023-05-09 131115](https://github.com/DANIEL-BOTNARU-2C-JCMAXWELL-2023/CardGame/assets/124572811/587c75a0-0fbc-4201-a2fa-780bb6857a46)
 
 
 
 
-
+-***Here incece we can see how to win getting to make as many points as possible***
 
 
 
