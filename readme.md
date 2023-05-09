@@ -4,7 +4,7 @@
    **Made By Daniel Botnaru**
                                           
 					  
-   **_Let's play
+   **_Let's play*_**
 					   
 
 - ***You will have fun playing this game, but at the same time train your mind,
@@ -29,7 +29,7 @@ This is how you create good competition between you and your friends***
 
 ![image](https://user-images.githubusercontent.com/124572811/235663338-2e20a339-53fd-4f8d-ac89-c70034505073.png)
 
-- ***In these images above we can see many colors but above all the childhood of many of us ***
+-***In these images above we can see many colors but above all the childhood of many of us***
 
 
 	
